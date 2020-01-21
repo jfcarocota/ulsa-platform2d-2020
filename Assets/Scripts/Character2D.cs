@@ -8,6 +8,6 @@ public class Character2D : MonoBehaviour
    
    void Update()
    {
-       
+       Debug.Log(GameplaySystem.Axis);
    }
 }
