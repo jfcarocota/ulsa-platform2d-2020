@@ -6,8 +6,10 @@ using Platform2DUtils.GameplaySystem;
 public class Character2D : MonoBehaviour
 {
    
+   [SerializeField]
+   float moveSpeed = 2f;
    void Update()
    {
-       Debug.Log(GameplaySystem.Axis);
+       GameplaySystem.TMovementDelta(transform, moveSpeed);
    }
 }
