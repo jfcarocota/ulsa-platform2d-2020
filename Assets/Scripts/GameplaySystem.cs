@@ -1,12 +1,12 @@
 namespace Platform2DUtils.GameplaySystem
 {
     using UnityEngine;
-    
+
     public class GameplaySystem
     {
-        public static void Hello2DGame()
+        public static Vector2 Axis
         {
-            Debug.Log("Hello 2D Game");
+            get => new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         }
     }
 }

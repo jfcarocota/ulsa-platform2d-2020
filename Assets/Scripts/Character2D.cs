@@ -5,8 +5,9 @@ using Platform2DUtils.GameplaySystem;
 
 public class Character2D : MonoBehaviour
 {
-    void Start()
-    {
-        GameplaySystem.Hello2DGame();
-    }
+   
+   void Update()
+   {
+       
+   }
 }
