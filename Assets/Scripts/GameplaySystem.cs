@@ -11,5 +11,15 @@ namespace Platform2DUtils.GameplaySystem
         {
             get => new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         }
+
+        public static void TMovement(Transform t, float moveSpeed)
+        {
+            t.Translate(Vector2.right * moveSpeed);
+        }
+
+        public static void TMovementDelta(Transform t, float moveSpeed)
+        {
+            t.Translate(Vector2.right * moveSpeed * Time.deltaTime);
+        }
     }
 }
