@@ -21,6 +21,7 @@ namespace Platform2DUtils.GameplaySystem
         {
             t.Translate(Vector2.right * Axis.x * moveSpeed);
         }
+        
         ///<summary>
         /// Moves player in Horizontal axis with keyboard inputs and multiplied by delta time.
         ///</summary>
