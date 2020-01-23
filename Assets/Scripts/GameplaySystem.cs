@@ -31,5 +31,13 @@ namespace Platform2DUtils.GameplaySystem
         {
             t.Translate(Vector2.right * Axis.x * moveSpeed * Time.deltaTime);
         }
+
+        ///<summary>
+        /// Returns if jump button was buttondown.
+        ///</summary>
+        public static bool JumpBtn()
+        {
+            GameplaySystem => Input.GetButtonDown("Jump");
+        }
     }
 }
