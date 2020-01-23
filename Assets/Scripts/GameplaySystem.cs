@@ -35,9 +35,9 @@ namespace Platform2DUtils.GameplaySystem
         ///<summary>
         /// Returns if jump button was buttondown.
         ///</summary>
-        public static bool JumpBtn()
+        public static bool JumpBtn
         {
-            GameplaySystem => Input.GetButtonDown("Jump");
+            get => Input.GetButtonDown("Jump");
         }
     }
 }
