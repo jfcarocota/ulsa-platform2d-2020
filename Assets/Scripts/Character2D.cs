@@ -35,6 +35,11 @@ public class Character2D : MonoBehaviour
         get => GameplaySystem.Axis.x < 0 ? true : GameplaySystem.Axis.x > 0 ? false : spr.flipX;
     }
 
+    protected bool Grounding
+    {
+        get => Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundLayer);
+    }
+
     //Drawing raycast
     void OnDrawGizmosSelected()
     {
