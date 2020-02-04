@@ -36,7 +36,6 @@ public class Player : Character2D
         {
             Collectable collectable = other.GetComponent<Collectable>();
             Gamemanager.instance.Score.AddPoints(collectable.Points);
-            //score.AddPoints(collectable.Points);
             Destroy(other.gameObject);
         }
     }
