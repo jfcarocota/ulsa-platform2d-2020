@@ -55,6 +55,9 @@ TagManager:
   - name: grass
     uniqueID: 2057884943
     locked: 0
+  - name: enemy
+    uniqueID: 1099802253
+    locked: 0
   - name: player
     uniqueID: 3169655003
     locked: 0
