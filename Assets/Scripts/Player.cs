@@ -27,6 +27,8 @@ public class Player : Character2D
     void LateUpdate()
     {
         //spr.flipX = FlipSprite;
+        IFlip flip = new PlayerFlip();
+        spr.flipX = flip.FlipSprite(GameplaySystem.Axis.x, spr);
         anim.SetFloat("axisX", Mathf.Abs(GameplaySystem.Axis.x));
     }
 
