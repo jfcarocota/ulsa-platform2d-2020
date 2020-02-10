@@ -6,6 +6,9 @@ using Platform2DUtils.GameplaySystem;
 public class Player : Character2D
 {
 
+    [SerializeField]
+    float maxVel;
+
     void FixedUpdate()
     {
         if(GameplaySystem.JumpBtn)
@@ -17,11 +20,15 @@ public class Player : Character2D
             }
         }
         anim.SetBool("grounding", Grounding);
+
+        GameplaySystem.MovementAddForce(rb2D, moveSpeed);
+        float velXClamp = Mathf.Clamp(rb2D.velocity.x, -maxVel, maxVel);
+        rb2D.velocity = new Vector2(velXClamp, rb2D.velocity.y);
     }
 
     void Update()
     {
-        GameplaySystem.TMovementDelta(transform, moveSpeed);
+        //GameplaySystem.TMovementDelta(transform, moveSpeed);
     }
 
     void LateUpdate()
