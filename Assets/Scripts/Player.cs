@@ -21,7 +21,8 @@ public class Player : Character2D
         }
         anim.SetBool("grounding", Grounding);
 
-        GameplaySystem.MovementAddForce(rb2D, moveSpeed, maxVel, Grounding);
+        //GameplaySystem.MovementAddForce(rb2D, moveSpeed, maxVel, Grounding);
+        GameplaySystem.MovementVelocity(rb2D, moveSpeed, maxVel);
     }
 
     void Update()
