@@ -38,6 +38,7 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene(1);
         btnLoadGame.gameObject.SetActive(false);
         Gamemanager.instance.Score.gameObject.SetActive(true);
+        gameObject.SetActive(false);
     }
 
     public void QuitGame()
