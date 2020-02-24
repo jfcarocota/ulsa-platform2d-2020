@@ -34,6 +34,11 @@ namespace Platform2DUtils.MemorySystem
 
             return new GameData();
         }
+
+        public static void DeleteData()
+        {
+            if(File.Exists(path)) File.Delete(path);
+        }
     }
 }
 
