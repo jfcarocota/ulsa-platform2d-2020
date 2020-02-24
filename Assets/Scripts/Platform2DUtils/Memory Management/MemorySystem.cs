@@ -21,9 +21,14 @@ namespace Platform2DUtils.MemorySystem
             Debug.Log(path);
         }
 
+        public static bool DataExist
+        {
+            get => File.Exists(path);
+        }
+
         public static GameData LoadData()
         {
-            if(File.Exists(path))
+            if(DataExist)
             {
                 BinaryFormatter bf = new BinaryFormatter();
                 FileStream file = File.Open(path, FileMode.Open);
@@ -37,7 +42,7 @@ namespace Platform2DUtils.MemorySystem
 
         public static void DeleteData()
         {
-            if(File.Exists(path)) File.Delete(path);
+            if(DataExist) File.Delete(path);
         }
     }
 }
