@@ -14,6 +14,11 @@ public class Menu : MonoBehaviour
     [SerializeField]
     Button btnQuitGame;
 
+    [SerializeField]
+    GameObject panelNewGame;
+    [SerializeField]
+    GameObject panelOptions;
+
     void Awake()
     {
         btnNewGame.onClick.AddListener(NewGame);
@@ -34,9 +39,11 @@ public class Menu : MonoBehaviour
 
     public void NewGame()
     {
-        Gamemanager.instance.gameData = new GameData();
+        panelOptions.SetActive(false);
+        panelNewGame.SetActive(true);
+        /*Gamemanager.instance.gameData = new GameData();
         MemorySystem.SaveData(Gamemanager.instance.gameData);
-        LoadScene();
+        LoadScene();*/
     }
 
     public void QuitGame()
