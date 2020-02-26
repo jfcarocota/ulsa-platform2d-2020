@@ -1001,6 +1001,7 @@ GameObject:
   - component: {fileID: 2677602053864538873}
   - component: {fileID: 8582314070047498419}
   - component: {fileID: 7768382037382213539}
+  - component: {fileID: 4347395285097110241}
   m_Layer: 5
   m_Name: createGame
   m_TagString: Untagged
@@ -1091,6 +1092,20 @@ MonoBehaviour:
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
+--- !u!114 &4347395285097110241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5206152853611857507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0018f05d500945743adec6efc10adb09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: {fileID: 5407162360828882635}
+  btnNewGame: {fileID: 1153583916035796003}
 --- !u!1 &7248355004425143009
 GameObject:
   m_ObjectHideFlags: 0
