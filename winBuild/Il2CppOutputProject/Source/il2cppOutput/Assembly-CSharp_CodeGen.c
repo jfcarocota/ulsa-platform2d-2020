@@ -83,93 +83,95 @@ extern void Menu_QuitGame_m1EF431FAE66D5D09138EF912A90D81924068B90A ();
 extern void Menu_LoadScene_m91B79217EC2D8D10EAFBEAA3A0C2A1BF81A33CFD ();
 // 0x00000020 System.Void Menu::.ctor()
 extern void Menu__ctor_m87A18732D59A6382889C2771A372B622FD6CD58D ();
-// 0x00000021 System.Void NewGame::Save()
+// 0x00000021 System.Void NewGame::Awake()
+extern void NewGame_Awake_mE0DBBBC089A78371AEF49DEE924C85E69F2CBE78 ();
+// 0x00000022 System.Void NewGame::Save()
 extern void NewGame_Save_mF987BCDC7B4BFF584B4F5F897EF4CA6D5CFF3AD6 ();
-// 0x00000022 System.Void NewGame::.ctor()
+// 0x00000023 System.Void NewGame::.ctor()
 extern void NewGame__ctor_mEEFA222781A9319B278E4A7BAF3BBE1DD124B8BA ();
-// 0x00000023 Player GameData::get_Player()
+// 0x00000024 Player GameData::get_Player()
 extern void GameData_get_Player_m2F6EBB5BBE4165E34756219229AC7A5B58EC7CEA ();
-// 0x00000024 System.Void GameData::set_Player(Player)
+// 0x00000025 System.Void GameData::set_Player(Player)
 extern void GameData_set_Player_m019AE83B9AFA70B5D339B5B27CE5529C2BA93248 ();
-// 0x00000025 UnityEngine.Vector3 GameData::get_PlayerPos()
+// 0x00000026 UnityEngine.Vector3 GameData::get_PlayerPos()
 extern void GameData_get_PlayerPos_m950E6525A723360D618CC22E2A35931C8C3DD390 ();
-// 0x00000026 System.Void GameData::set_PlayerPos(UnityEngine.Vector3)
+// 0x00000027 System.Void GameData::set_PlayerPos(UnityEngine.Vector3)
 extern void GameData_set_PlayerPos_m51A79B599A0D5A6561337AE8934A11664D25FE8B ();
-// 0x00000027 System.Void GameData::.ctor()
+// 0x00000028 System.Void GameData::.ctor()
 extern void GameData__ctor_m9B092A92FE15260846E9071B9AD885609642E544 ();
-// 0x00000028 System.Void Player::Start()
+// 0x00000029 System.Void Player::Start()
 extern void Player_Start_mD6E1D31879EB485356D1C22C8AE12C5DF6392E79 ();
-// 0x00000029 System.Void Player::.ctor()
+// 0x0000002A System.Void Player::.ctor()
 extern void Player__ctor_mAEC38956EFD0E61D848D4E5AFB83BABCE2DF1E23 ();
-// 0x0000002A System.Void Player::FixedUpdate()
+// 0x0000002B System.Void Player::FixedUpdate()
 extern void Player_FixedUpdate_mE20A1C81FD65599E65968B3747E282F3017B0786 ();
-// 0x0000002B System.Void Player::Update()
+// 0x0000002C System.Void Player::Update()
 extern void Player_Update_m10202D3DF1DE1AD29B6B00E0092D9C41BD3861F7 ();
-// 0x0000002C System.Void Player::LateUpdate()
+// 0x0000002D System.Void Player::LateUpdate()
 extern void Player_LateUpdate_m06667632BF914E3CEE74CB03837E08002BBCD16C ();
-// 0x0000002D System.Void Player::OnTriggerEnter2D(UnityEngine.Collider2D)
+// 0x0000002E System.Void Player::OnTriggerEnter2D(UnityEngine.Collider2D)
 extern void Player_OnTriggerEnter2D_mF25902E717B82E9E5BF607A7DD8EA81608DA13FA ();
-// 0x0000002E System.Void Score::Awake()
+// 0x0000002F System.Void Score::Awake()
 extern void Score_Awake_mFB7C3C9EFE76AA948CE780C5354AA41EE6C667C5 ();
-// 0x0000002F System.Void Score::AddPoints(System.Int32)
+// 0x00000030 System.Void Score::AddPoints(System.Int32)
 extern void Score_AddPoints_m173769FE1905491AAAE300C4CBF09AF96B506270 ();
-// 0x00000030 System.Void Score::.ctor()
+// 0x00000031 System.Void Score::.ctor()
 extern void Score__ctor_m6D8B5618AE9484FC3F490E9900212641B60F02F6 ();
-// 0x00000031 System.Void Readme::.ctor()
+// 0x00000032 System.Void Readme::.ctor()
 extern void Readme__ctor_m23AE6143BDABB863B629ADE701E2998AB8651D4C ();
-// 0x00000032 System.Void Readme_Section::.ctor()
+// 0x00000033 System.Void Readme_Section::.ctor()
 extern void Section__ctor_mE73C1D6AE5454B5A67AAB04CAA5144A5CA0B0D96 ();
-// 0x00000033 System.Void UnityTemplateProjects.SimpleCameraController::OnEnable()
+// 0x00000034 System.Void UnityTemplateProjects.SimpleCameraController::OnEnable()
 extern void SimpleCameraController_OnEnable_mE3D6E47455F101F2DEEBC2A58D09A97CF38E80B8 ();
-// 0x00000034 UnityEngine.Vector3 UnityTemplateProjects.SimpleCameraController::GetInputTranslationDirection()
+// 0x00000035 UnityEngine.Vector3 UnityTemplateProjects.SimpleCameraController::GetInputTranslationDirection()
 extern void SimpleCameraController_GetInputTranslationDirection_m73C99DB69CEB467834BBA00A62415D1CEEF0CB47 ();
-// 0x00000035 System.Void UnityTemplateProjects.SimpleCameraController::Update()
+// 0x00000036 System.Void UnityTemplateProjects.SimpleCameraController::Update()
 extern void SimpleCameraController_Update_mBCD24408A4A2C4053F2F98DB808BD6DE88CA998F ();
-// 0x00000036 System.Void UnityTemplateProjects.SimpleCameraController::.ctor()
+// 0x00000037 System.Void UnityTemplateProjects.SimpleCameraController::.ctor()
 extern void SimpleCameraController__ctor_m8DE12FC1A6C31D2D60ED78F0B574CE3F864F546E ();
-// 0x00000037 System.Void UnityTemplateProjects.SimpleCameraController_CameraState::SetFromTransform(UnityEngine.Transform)
+// 0x00000038 System.Void UnityTemplateProjects.SimpleCameraController_CameraState::SetFromTransform(UnityEngine.Transform)
 extern void CameraState_SetFromTransform_m6467352ED87301E5F4A76456060A765CAB96AF3E ();
-// 0x00000038 System.Void UnityTemplateProjects.SimpleCameraController_CameraState::Translate(UnityEngine.Vector3)
+// 0x00000039 System.Void UnityTemplateProjects.SimpleCameraController_CameraState::Translate(UnityEngine.Vector3)
 extern void CameraState_Translate_m76BCC104A48EA7F125D5A50D874A2DEEA7967247 ();
-// 0x00000039 System.Void UnityTemplateProjects.SimpleCameraController_CameraState::LerpTowards(UnityTemplateProjects.SimpleCameraController_CameraState,System.Single,System.Single)
+// 0x0000003A System.Void UnityTemplateProjects.SimpleCameraController_CameraState::LerpTowards(UnityTemplateProjects.SimpleCameraController_CameraState,System.Single,System.Single)
 extern void CameraState_LerpTowards_m883AAF2D3C7F5045B64CAF655FB84EF0FC98F282 ();
-// 0x0000003A System.Void UnityTemplateProjects.SimpleCameraController_CameraState::UpdateTransform(UnityEngine.Transform)
+// 0x0000003B System.Void UnityTemplateProjects.SimpleCameraController_CameraState::UpdateTransform(UnityEngine.Transform)
 extern void CameraState_UpdateTransform_mE3349362276789C1617C01276F7DE533BBA22623 ();
-// 0x0000003B System.Void UnityTemplateProjects.SimpleCameraController_CameraState::.ctor()
+// 0x0000003C System.Void UnityTemplateProjects.SimpleCameraController_CameraState::.ctor()
 extern void CameraState__ctor_m4A83DF36C7D280050EA1B101E61B7E345C31A322 ();
-// 0x0000003C System.Void Platform2DUtils.MemorySystem.MemorySystem::SaveData(GameData)
+// 0x0000003D System.Void Platform2DUtils.MemorySystem.MemorySystem::SaveData(GameData)
 extern void MemorySystem_SaveData_m124437F806631A9C3A5DEF9F8EF18FC5BC12D6C0 ();
-// 0x0000003D System.Void Platform2DUtils.MemorySystem.MemorySystem::SaveData(GameData,System.String)
+// 0x0000003E System.Void Platform2DUtils.MemorySystem.MemorySystem::SaveData(GameData,System.String)
 extern void MemorySystem_SaveData_m3A8827095FB1696FAA80A5DC2096BB0A0D87FAB5 ();
-// 0x0000003E System.Boolean Platform2DUtils.MemorySystem.MemorySystem::get_DataExist()
+// 0x0000003F System.Boolean Platform2DUtils.MemorySystem.MemorySystem::get_DataExist()
 extern void MemorySystem_get_DataExist_mF573539FA5B419DC6C39A4000A460707F5342AAA ();
-// 0x0000003F GameData Platform2DUtils.MemorySystem.MemorySystem::LoadData()
+// 0x00000040 GameData Platform2DUtils.MemorySystem.MemorySystem::LoadData()
 extern void MemorySystem_LoadData_mD8098F4F18FAA65B137F1900849EB7013929F1DE ();
-// 0x00000040 System.Void Platform2DUtils.MemorySystem.MemorySystem::DeleteData()
+// 0x00000041 System.Void Platform2DUtils.MemorySystem.MemorySystem::DeleteData()
 extern void MemorySystem_DeleteData_m99777D402ACC9C3650CCF787569E7677689C8B52 ();
-// 0x00000041 System.Void Platform2DUtils.MemorySystem.MemorySystem::.ctor()
+// 0x00000042 System.Void Platform2DUtils.MemorySystem.MemorySystem::.ctor()
 extern void MemorySystem__ctor_m406E2F48743320405178343C4316353CC4918AC6 ();
-// 0x00000042 System.Void Platform2DUtils.MemorySystem.MemorySystem::.cctor()
+// 0x00000043 System.Void Platform2DUtils.MemorySystem.MemorySystem::.cctor()
 extern void MemorySystem__cctor_m974BE7C79010DA0F3B4BBBFD4D6AFFD21C80ED60 ();
-// 0x00000043 UnityEngine.Vector2 Platform2DUtils.GameplaySystem.GameplaySystem::get_Axis()
+// 0x00000044 UnityEngine.Vector2 Platform2DUtils.GameplaySystem.GameplaySystem::get_Axis()
 extern void GameplaySystem_get_Axis_m7D2320133ABACF5968317E66D434C145E328FDC7 ();
-// 0x00000044 System.Void Platform2DUtils.GameplaySystem.GameplaySystem::TMovement(UnityEngine.Transform,System.Single)
+// 0x00000045 System.Void Platform2DUtils.GameplaySystem.GameplaySystem::TMovement(UnityEngine.Transform,System.Single)
 extern void GameplaySystem_TMovement_mCEC345EC737447F1C09EF8BE09199CB67FECCA39 ();
-// 0x00000045 System.Void Platform2DUtils.GameplaySystem.GameplaySystem::MovementAddForce(UnityEngine.Rigidbody2D,System.Single,System.Single)
+// 0x00000046 System.Void Platform2DUtils.GameplaySystem.GameplaySystem::MovementAddForce(UnityEngine.Rigidbody2D,System.Single,System.Single)
 extern void GameplaySystem_MovementAddForce_m1DFD1E4ABFCB7699945E12CA67E0EE5D67B39891 ();
-// 0x00000046 System.Void Platform2DUtils.GameplaySystem.GameplaySystem::MovementAddForce(UnityEngine.Rigidbody2D,System.Single,System.Single,System.Boolean)
+// 0x00000047 System.Void Platform2DUtils.GameplaySystem.GameplaySystem::MovementAddForce(UnityEngine.Rigidbody2D,System.Single,System.Single,System.Boolean)
 extern void GameplaySystem_MovementAddForce_m91D6333747EDB4104E1CF04A635F94C5C7A19D9F ();
-// 0x00000047 System.Void Platform2DUtils.GameplaySystem.GameplaySystem::MovementVelocity(UnityEngine.Rigidbody2D,System.Single,System.Single)
+// 0x00000048 System.Void Platform2DUtils.GameplaySystem.GameplaySystem::MovementVelocity(UnityEngine.Rigidbody2D,System.Single,System.Single)
 extern void GameplaySystem_MovementVelocity_m0EAC6D3B49B50B04262045847144AA9F1BE1E834 ();
-// 0x00000048 System.Void Platform2DUtils.GameplaySystem.GameplaySystem::TMovementDelta(UnityEngine.Transform,System.Single)
+// 0x00000049 System.Void Platform2DUtils.GameplaySystem.GameplaySystem::TMovementDelta(UnityEngine.Transform,System.Single)
 extern void GameplaySystem_TMovementDelta_m156B53D46504C16FFF58398C5177BF5A1ABD5977 ();
-// 0x00000049 System.Boolean Platform2DUtils.GameplaySystem.GameplaySystem::get_JumpBtn()
+// 0x0000004A System.Boolean Platform2DUtils.GameplaySystem.GameplaySystem::get_JumpBtn()
 extern void GameplaySystem_get_JumpBtn_m9B070FA73B83CBC10794D679D99BA7EC1259436E ();
-// 0x0000004A System.Void Platform2DUtils.GameplaySystem.GameplaySystem::Jump(UnityEngine.Rigidbody2D,System.Single)
+// 0x0000004B System.Void Platform2DUtils.GameplaySystem.GameplaySystem::Jump(UnityEngine.Rigidbody2D,System.Single)
 extern void GameplaySystem_Jump_m00113C95C5BECBAE11B5F67F4C45F9641477A002 ();
-// 0x0000004B System.Void Platform2DUtils.GameplaySystem.GameplaySystem::.ctor()
+// 0x0000004C System.Void Platform2DUtils.GameplaySystem.GameplaySystem::.ctor()
 extern void GameplaySystem__ctor_m2DE0A82928EA1229E1E128C05D9F336638CE7DC0 ();
-static Il2CppMethodPointer s_methodPointers[75] = 
+static Il2CppMethodPointer s_methodPointers[76] = 
 {
 	Character2D_Awake_mBF86806FC014E4A50E6ADBBAA1C98D4E97FEEC34,
 	Character2D_get_Grounding_m0E6360CAAE70C28D5B92205EDBE9CB06E90CB155,
@@ -203,6 +205,7 @@ static Il2CppMethodPointer s_methodPointers[75] =
 	Menu_QuitGame_m1EF431FAE66D5D09138EF912A90D81924068B90A,
 	Menu_LoadScene_m91B79217EC2D8D10EAFBEAA3A0C2A1BF81A33CFD,
 	Menu__ctor_m87A18732D59A6382889C2771A372B622FD6CD58D,
+	NewGame_Awake_mE0DBBBC089A78371AEF49DEE924C85E69F2CBE78,
 	NewGame_Save_mF987BCDC7B4BFF584B4F5F897EF4CA6D5CFF3AD6,
 	NewGame__ctor_mEEFA222781A9319B278E4A7BAF3BBE1DD124B8BA,
 	GameData_get_Player_m2F6EBB5BBE4165E34756219229AC7A5B58EC7CEA,
@@ -247,7 +250,7 @@ static Il2CppMethodPointer s_methodPointers[75] =
 	GameplaySystem_Jump_m00113C95C5BECBAE11B5F67F4C45F9641477A002,
 	GameplaySystem__ctor_m2DE0A82928EA1229E1E128C05D9F336638CE7DC0,
 };
-static const int32_t s_InvokerIndices[75] = 
+static const int32_t s_InvokerIndices[76] = 
 {
 	23,
 	95,
@@ -265,6 +268,7 @@ static const int32_t s_InvokerIndices[75] =
 	14,
 	14,
 	26,
+	23,
 	23,
 	23,
 	23,
@@ -329,7 +333,7 @@ extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	75,
+	76,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,
